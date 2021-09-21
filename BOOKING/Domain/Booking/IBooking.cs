@@ -11,5 +11,7 @@ namespace BOOKING.Domain.Booking
         int BookingID { get; set; }
         DateTime StartTid { get; set; }
         DateTime SlutTid { get; set; }
+
+        bool IsOverlapping(List<Booking> otherBookings);
     }
 }
