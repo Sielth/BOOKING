@@ -5,9 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="BookingVindue\" />
-    <Folder Include="Kalender\" />
-    <Folder Include="Hold\" />
     <Folder Include="Person\" />
   </ItemGroup>
 
