@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace BOOKING.Domain.Booking
 {
-    interface IBooking
+    interface IBookingEntity
     {
         int BookingID { get; set; }
         DateTime StartTid { get; set; }
         DateTime SlutTid { get; set; }
 
-        bool IsOverlapping(List<Booking> otherBookings);
+        bool IsOverlapping(List<BookingEntity> otherBookings);
     }
 }
