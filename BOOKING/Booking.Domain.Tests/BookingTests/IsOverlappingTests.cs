@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Booking.Domain.Tests.BookingTests
+namespace BOOKING.Domain.Tests.BookingTests
 {
     public class IsOverlappingTests
     {
@@ -13,10 +13,10 @@ namespace Booking.Domain.Tests.BookingTests
         public void Test1()
         {
             //Arrange
-            var sut = new BOOKING.Domain.Booking.BookingEntity();
+            var sut = new Booking.BookingEntity();
             var expected = false;
             //Act
-            var actual = sut.IsOverlapping(new List<BOOKING.Domain.Booking.BookingEntity>());
+            var actual = sut.IsOverlapping(new List<Booking.BookingEntity>());
             //Assert
             Assert.Equal(expected, actual);
         }
@@ -24,10 +24,10 @@ namespace Booking.Domain.Tests.BookingTests
         public void GivenBookingIsOverlapping_ThenReturnTrue()
         {
             //Arrange
-            var sut = new BOOKING.Domain.Booking.BookingEntity(new DateTime(2021, 9, 1, 10, 0, 0), new DateTime(2021, 9, 1, 12, 0, 0));
-            var otherBookings = new List<BOOKING.Domain.Booking.BookingEntity>(new[]
+            var sut = new Booking.BookingEntity(new DateTime(2021, 9, 1, 10, 0, 0), new DateTime(2021, 9, 1, 12, 0, 0));
+            var otherBookings = new List<Booking.BookingEntity>(new[]
             {
-                new BOOKING.Domain.Booking.BookingEntity(new DateTime(2021,9,1, 11, 0, 0),new DateTime(2021,9,1,13,0,0))
+                new Booking.BookingEntity(new DateTime(2021,9,1, 11, 0, 0),new DateTime(2021,9,1,13,0,0))
             });
             var expected = true;
             //Act
