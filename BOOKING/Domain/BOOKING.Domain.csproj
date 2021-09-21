@@ -4,4 +4,11 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="BookingVindue\" />
+    <Folder Include="Kalender\" />
+    <Folder Include="Hold\" />
+    <Folder Include="Person\" />
+  </ItemGroup>
+
 </Project>
