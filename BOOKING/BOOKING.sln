@@ -8,6 +8,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BOOKING.Application", "BOOKING.Application\BOOKING.Application.csproj", "{ACAAA08D-B774-4A47-B63F-2E8F69BF7E72}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BOOKING.Persistence", "BOOKING.Persistence\BOOKING.Persistence.csproj", "{C39848E0-8E39-4DE0-BFA1-F1F8897927EB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DBF81029-BF5B-454E-B338-74AB44C4D920} = {DBF81029-BF5B-454E-B338-74AB44C4D920}
+		{ACAAA08D-B774-4A47-B63F-2E8F69BF7E72} = {ACAAA08D-B774-4A47-B63F-2E8F69BF7E72}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BOOKING.Domain.Tests", "Booking.Domain.Tests\BOOKING.Domain.Tests.csproj", "{B392453D-69F4-47FC-8ED2-0F1470B64F47}"
 	ProjectSection(ProjectDependencies) = postProject

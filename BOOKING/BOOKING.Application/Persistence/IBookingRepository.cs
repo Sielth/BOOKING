@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BOOKING.Persistence.Repository
+namespace BOOKING.Application.Persistence
 {
-    class KalenderRepository
+    public interface IBookingRepository
     {
     }
 }
