@@ -13,5 +13,9 @@ namespace BOOKING.Domain.Kalender
         public List<BookingVindueEntity> BookingVinduer { get; set; }
         //public BookingVindue.BookingVindueEntity BookingVindueEntity { get; set; }
         //public Hold.HoldEntity HoldEntity { get; set; } -- Forbind senere
+        KalenderEntity()
+        {
+
+        }
     }
 }

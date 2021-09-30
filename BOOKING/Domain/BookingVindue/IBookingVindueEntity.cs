@@ -9,5 +9,6 @@ namespace BOOKING.Domain.BookingVindue
     public interface IBookingVindueEntity
     {
         Guid BookingVindueID { get; set; }
+        int KalenderID { get; set; }
     }
 }

@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BOOKING.Domain.Kalender;
 
 namespace BOOKING.Domain.BookingVindue
 {
     public class BookingVindueEntity
     {
-        public Guid BookingvindueID { get; set; }
+        public Guid BookingVindueID { get; set; }
+        public KalenderEntity Kalender { get; set; }
     }
 }
