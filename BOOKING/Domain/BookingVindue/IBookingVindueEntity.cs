@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace BOOKING.Domain.BookingVindue
 {
-    public class BookingVindueEntity
+    public interface IBookingVindueEntity
     {
-        public Guid BookingvindueID { get; set; }
+        Guid BookingVindueID { get; set; }
     }
 }

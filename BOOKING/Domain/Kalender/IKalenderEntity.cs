@@ -7,11 +7,10 @@ using BOOKING.Domain.BookingVindue;
 
 namespace BOOKING.Domain.Kalender
 {
-    public class KalenderEntity
+    public interface IKalenderEntity
     {
-        public int KalenderID { get; set; }
-        public List<BookingVindueEntity> BookingVinduer { get; set; }
-        //public BookingVindue.BookingVindueEntity BookingVindueEntity { get; set; }
+        Guid KalenderID { get; }
+        List<BookingVindueEntity> BookingVinduer { get; set; }
         //public Hold.HoldEntity HoldEntity { get; set; } -- Forbind senere
     }
 }

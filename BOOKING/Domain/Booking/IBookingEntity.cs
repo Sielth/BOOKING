@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BOOKING.Domain.Booking
 {
-    interface IBookingEntity
+    public interface IBookingEntity
     {
-        int BookingID { get; set; }
+        Guid BookingID { get; set; }
         DateTime StartTid { get; set; }
         DateTime SlutTid { get; set; }
 

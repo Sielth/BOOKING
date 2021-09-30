@@ -8,7 +8,7 @@ namespace BOOKING.Domain.Person
 {
     class Underviser : IPerson
     {
-        public int UnderviserID { get; }
+        public Guid UnderviserID { get; set; }
         public string Fnavn { get; set; }
         public string Enavn { get; set; }
     }

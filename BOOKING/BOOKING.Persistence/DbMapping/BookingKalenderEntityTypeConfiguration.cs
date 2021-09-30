@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BOOKING.Domain.BookingVindue
+namespace BOOKING.Persistence.DbMapping
 {
-    public class BookingVindueEntity
+    class BookingKalenderEntityTypeConfiguration
     {
-        public Guid BookingvindueID { get; set; }
+
     }
 }

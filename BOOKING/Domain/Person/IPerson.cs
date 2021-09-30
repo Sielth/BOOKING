@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BOOKING.Domain.Person
 {
-    interface IPerson
+    public interface IPerson
     {
         string Fnavn { get; set; }
         string Enavn { get; set; }

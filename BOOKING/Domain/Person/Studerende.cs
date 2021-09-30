@@ -8,7 +8,7 @@ namespace BOOKING.Domain.Person
 {
     class Studerende : IPerson
     {
-        public int StudieID { get; }
+        public Guid StudieID { get; set; }
         public string Fnavn { get; set; }
         public string Enavn { get; set; }
     }
