@@ -14,5 +14,4 @@ namespace BOOKING.Persistence.Context
         public DbSet<BookingEntity> Bookings { get; set; }
         public DbSet<KalenderEntity> Calendars { get;set; }
     }
-    //test
 }
