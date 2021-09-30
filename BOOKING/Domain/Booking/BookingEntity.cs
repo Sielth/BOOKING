@@ -9,13 +9,14 @@ namespace BOOKING.Domain.Booking
     public class BookingEntity : IBookingEntity
     {
         public Guid BookingID { get; set; }
+        //public int BookingID { get; set; }
+        public DateTime StartTid { get; set; }
+        public DateTime SlutTid { get; set; }
+
         public BookingEntity()
         {
 
         }
-        //public int BookingID { get; set; }
-        public DateTime StartTid { get; set; }
-        public DateTime SlutTid { get; set; }
 
         public BookingEntity(DateTime startTid, DateTime slutTid)
         {

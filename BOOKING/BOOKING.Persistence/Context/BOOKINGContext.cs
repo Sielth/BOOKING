@@ -10,9 +10,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BOOKING.Persistence.Context
 {
-    class BookingEntityContext : DbContext
+    class BOOKINGContext : DbContext
     {
-        public DbSet<BookingEntity> Bookings { get; set; }
+        public DbSet<BookingEntity> Bookinger { get; set; }
         public DbSet<KalenderEntity> Kalendere { get; set; }
         public DbSet<BookingVindueEntity> BookingVinduer { get; set; }
     }
