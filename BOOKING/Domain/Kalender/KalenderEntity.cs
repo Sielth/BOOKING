@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BOOKING.Domain.Kalender
 {
-    public class Kalender
+    public class KalenderEntity
     {
         public int KalenderID { get; }
         public BookingVindue.BookingVindueEntity BookingVindueEntity { get; set; }
