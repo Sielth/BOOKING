@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BOOKING.Application.Persistence;
+﻿using BOOKING.Application.Persistence;
 using BOOKING.Domain.BookingVindue;
 using BOOKING.Persistence.Context;
 
@@ -23,5 +18,6 @@ namespace BOOKING.Persistence.Repositories
             _context.BookingVinduer.Add(bookingVindueEntity);
             _context.SaveChanges();
         }
+
     }
 }

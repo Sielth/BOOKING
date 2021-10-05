@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BOOKING.Application.Commands
 {
-    public class KalenderCommand
+    class BookingCommand
     {
+        public Guid BookingVindue { get; set; }
+        public DateTime StartTid { get; set; }
+        public DateTime SlutTid { get; set; }
     }
 }

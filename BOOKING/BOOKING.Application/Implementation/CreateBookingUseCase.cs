@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BOOKING.Application.Commands
+namespace BOOKING.Application.Implementation
 {
-    public class KalenderCommand
+    class CreateBookingUseCase
     {
     }
 }
