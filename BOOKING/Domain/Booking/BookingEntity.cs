@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BOOKING.Domain.BookingVindue;
 
 namespace BOOKING.Domain.Booking
 {
@@ -12,6 +13,7 @@ namespace BOOKING.Domain.Booking
         //public int BookingID { get; set; }
         public DateTime StartTid { get; set; }
         public DateTime SlutTid { get; set; }
+        public BookingVindueEntity BookingVinduer { get; set; }
 
         public BookingEntity()
         {
